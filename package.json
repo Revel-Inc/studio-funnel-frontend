@@ -1,0 +1,26 @@
+{
+  "name": "funnel-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "npm": "^5.7.1",
+    "react": "^16.2.0",
+    "react-collapse": "^4.0.3",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "deploy": "npm run build && surge -p ./build -d revelstudioprojects.surge.sh",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dev-dependencies": {
+    "redux-logger": "^3.0.6"
+  }
+}

@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #041e41;
+  max-height: 10vh;
+  font-family: Roboto;
+}
+
+.navbar-branding {
+  max-height: 100%;
+  width: auto;
+}
+
+.logo{
+  height: 50px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ff4100;
+}
+
+.greeting-initials {
+  height: 50px;
+  width: 50px;
+  background-color: #ff4100;
+  border-radius: 25px;
+}
+
+.greeting-initials-text {
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: Roboto;
+}

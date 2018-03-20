@@ -1,0 +1,15 @@
+.side-bar {
+  background-color: #eeeeee;
+  font-family: Roboto;
+  width: 15%;
+}
+
+.filter-pill{
+  background-color: #fff;
+  border: 1px solid #041e41;
+  height: 30px;
+  border-radius: 15px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}

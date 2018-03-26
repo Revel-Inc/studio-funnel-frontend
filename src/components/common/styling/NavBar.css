@@ -2,6 +2,7 @@
   background-color: #041e41;
   max-height: 10vh;
   font-family: Roboto;
+  box-shadow: none;
 }
 
 .navbar-branding {

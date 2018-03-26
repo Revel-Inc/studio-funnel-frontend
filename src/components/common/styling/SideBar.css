@@ -1,10 +1,18 @@
 .side-bar {
-  background-color: #eeeeee;
+  background-color: #fff;
   font-family: Roboto;
   width: 15%;
+  /* position: fixed; */
+  height: 95vh;
+  /* left: 15vw; */
 }
 
-.filter-pill{
+.side-bar-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.filter-pill {
   background-color: #fff;
   border: 1px solid #041e41;
   height: 30px;
@@ -12,4 +20,9 @@
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.filter-pill:hover {
+  background-color: #041e41;
+  color: #fff;
 }

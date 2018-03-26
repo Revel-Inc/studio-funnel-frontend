@@ -3,7 +3,7 @@ import './styling/NavBar.css'
 
 const NavBar = () => {
   return (
-    <div className='navbar py-3 ml-3'>
+    <div className='navbar ml-3 py-4'>
       <div className='container'>
         <div className='navbar-branding d-flex align-items-center'>
           <img src='./assets/images/Revel_white-logo.png' className='logo mr-3' />
